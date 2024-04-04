@@ -1,0 +1,40 @@
+.table-content {
+    overflow-x: auto;
+    width: 75%;
+    margin: 2rem auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e7e7e7;
+  }
+  
+  thead {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .title {
+    flex: 3;
+  }
+  
+  .genre {
+    flex: 1;
+  }
+
+  .year {
+    flex: 1;
+  }
+
+  tr:nth-child(even) {
+    background-color: #e7e7e7;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    border-right: 1px solid #ddd;
+  }
